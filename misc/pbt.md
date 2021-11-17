@@ -2,7 +2,7 @@
 
 Hi! You're probably here because of some talk or lecture I did on property-based testing. A download link to the slides will also appear here after the talk
 
-Slides: TODO
+Slides: [Handout](https://spdskatr.github.io/misc/pbt_presentation_short.pdf)
 
 Here are some resources I found quite useful when researching this topic.
 
