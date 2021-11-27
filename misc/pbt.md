@@ -1,9 +1,17 @@
-# Property-based testing resources
+# Property-based testing
 
 Hi! You're probably here because of some talk or lecture I did on property-based testing. A download link to the slides will also appear here after the talk
 
 Slides: [Handout](https://spdskatr.github.io/misc/pbt_presentation_short.pdf)
 
+## Extra points/disclaimers
+- I know that Python's `hypothesis` library has a special component for model-based (or stateful) testing. Documentation can be found [here](https://hypothesis.readthedocs.io/en/latest/stateful.html).
+  - I did not cover it because I would have to explain it and my talk already went for quite long.
+  - Not all property-based testing libraries are guaranteed to have this (good libraries should, though) so using only the basic tools that the `hypothesis` gives means that my examples are more transferrable to other libraries and languages.
+- My classification of property-based testing design patterns is just a general overview. I have seen other talks where people group property-based testing patterns in different ways. As far as I know, there has been no definitive classification.
+- For those who were disappointed that my talk wasn't in Haskell, I do apologise. Can I offer you a nice [BubbleT](https://github.com/spdskatr/BubbleT/) in this trying time?
+
+## Resources
 Here are some resources I found quite useful when researching this topic.
 
 ### Papers
@@ -13,13 +21,19 @@ Here are some resources I found quite useful when researching this topic.
 - Seems cool: [Do Judge a Test by its Cover: Combining Combinatorial and Property-Based Testing (2021)](https://link.springer.com/chapter/10.1007%2F978-3-030-72019-3_10)
 
 ### Blogs
-- [F# for Fun and Profit: Property Based Testing](https://fsharpforfunandprofit.com/series/property-based-testing/)
-- [Spotify blog on creating property-based testing in C++](https://engineering.atspotify.com/2015/06/25/rapid-check/)
+- Series of blog posts on property-based testing in depth: [F# for Fun and Profit: Property Based Testing](https://fsharpforfunandprofit.com/series/property-based-testing/)
+- Short Spotify blog on property-based testing in C++: [Generating test cases so you don’t have to](https://engineering.atspotify.com/2015/06/25/rapid-check/)
 
 ### Talks
-- [John Hughes - Don't Write Tests! (Curry On! Barcelona 2017)](https://www.youtube.com/watch?v=hXnS_Xjwk2Y)
-- [John Hughes - How to Specify it! (Code Mesh LDN 19)](https://www.youtube.com/watch?v=zvRAyq5wj38)
-- [Eric Normand - Testing Stateful and Concurrent Systems Using test.check (Clojure/west 2017)](https://www.youtube.com/watch?v=r5i_OiZw6Sw)
+- Short talk on the `hypothesis` library: [Matt Bachmann - Better Testing with Less Code (PyCon 2016)](https://youtu.be/jvwfDdgg93E)
+- General introduction to property-based testing: [John Hughes - Don't Write Tests! (Curry On! Barcelona 2017)](https://www.youtube.com/watch?v=hXnS_Xjwk2Y)
+- How to write good properties: [John Hughes - How to Specify it! (Code Mesh LDN 19)](https://www.youtube.com/watch?v=zvRAyq5wj38)
+- How to test stateful and/or concurrent systems: [Eric Normand - Testing Stateful and Concurrent Systems Using test.check (Clojure/west 2017)](https://www.youtube.com/watch?v=r5i_OiZw6Sw)
+- How people modelled and tested a NoSQL database: [Ulf Norell - Testing Eventual Consistency in Riak (Erlang User Conference 2012)](https://www.youtube.com/watch?v=x9mW54GJpG0)
+
+### Just for fun
+- John Hughes and co. made a company called [QuviQ](http://www.quviq.com) that provides property-based testing services!
+
 
 Special thanks to the University of New South Wales course COMP3141 "[Software System Design and Implementation](https://cgi.cse.unsw.edu.au/~cs3141/)" for initially introducing me to property-based testing.
 
