@@ -34,7 +34,10 @@ Here are some resources I found quite useful when researching this topic.
 ### Just for fun
 - John Hughes and co. made a company called [QuviQ](http://www.quviq.com) that provides property-based testing services!
 
+### Acknowledgements
 
 Special thanks to the University of New South Wales course COMP3141 "[Software System Design and Implementation](https://cgi.cse.unsw.edu.au/~cs3141/)" for initially introducing me to property-based testing.
+
+Also thanks to [Churchill College, University of Cambridge](https://www.chu.cam.ac.uk/) for providing the venue to host my talk and my epic Director of Studies [Mr Matthew Ireland](https://www.chu.cam.ac.uk/people/view/matthew-ireland/) for his support and encouragement. You can find out more about the Churchill College CompSci Talks [here](https://kudos.chu.cam.ac.uk/talks/about).
 
 Thanks for listening! ~💜
