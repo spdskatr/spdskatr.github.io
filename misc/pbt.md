@@ -7,7 +7,7 @@ Slides: [Handout](https://spdskatr.github.io/misc/pbt_presentation_short.pdf)
 ## Extra points/disclaimers
 - I know that Python's `hypothesis` library has a special component for model-based (or stateful) testing. Documentation can be found [here](https://hypothesis.readthedocs.io/en/latest/stateful.html).
   - I did not cover it because I would have to explain it and my talk already went for quite long.
-  - Not all property-based testing libraries are guaranteed to have this (good libraries should, though) so using only the basic tools that the `hypothesis` gives means that my examples are more transferrable to other libraries and languages.
+  - Not all property-based testing libraries are guaranteed to have this (good libraries should, though) so using only the basic tools that `hypothesis` gives means that my examples are more transferrable to other libraries and languages.
 - My classification of property-based testing design patterns is just a general overview. I have seen other talks where people group property-based testing patterns in different ways. As far as I know, there has been no definitive classification.
 - In my explanation of what formal verification is, I was quite vague and my explanation can be interpreted as a program generating the proofs of correctness. Typically, all that proof assisitants do is *check* if your proof is correct, not generate proofs by themselves. However, automated proving *is* its own field!
 - For those who were disappointed that my talk wasn't in Haskell, I do apologise. Can I offer you a nice [BubbleT](https://github.com/spdskatr/BubbleT/) in this trying time?
